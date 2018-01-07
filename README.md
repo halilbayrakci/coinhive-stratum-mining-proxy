@@ -1,4 +1,4 @@
-#Heart Project Stratum
+# Heart Project Stratum
 
 ## Installation and Deployment
 
