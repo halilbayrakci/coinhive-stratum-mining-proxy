@@ -1,3 +1,19 @@
+#Heart Project Stratum
+
+## Installation and Deployment
+
+Run on Docker:
+
+```sh
+$ git clone https://github.com/x25/coinhive-stratum-mining-proxy.git
+$ cd coinhive-stratum-mining-proxy
+$ docker build -t coinhive-stratum-mining-proxy .
+$ docker run -p 8892:8892 coinhive-stratum-mining-proxy heartpool.heartproject.io 3333
+```
+
+
+
+
 # CoinHive Stratum Mining Proxy
 
 A proof of concept of web mining using CoinHive's [JavaScript Mining](https://coinhive.com/documentation/miner) library. The proxy acts like coin hive to connect to a mining pool. Should work with any monero pool based on the [Stratum Mining Protocol](https://en.bitcoin.it/wiki/Stratum_mining_protocol). You can even set up your [own pool](https://github.com/sammy007/monero-stratum).
